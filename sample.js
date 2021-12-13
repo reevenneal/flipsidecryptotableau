@@ -23,7 +23,7 @@
     };
 
     myConnector.getData = function(table, doneCallback) {
-        var apiCall = "https://api.flipsidecrypto.com/api/v2/queries/77a363ca-4096-4414-82e3-9c5c7f7e6b56/data/latest";
+        var apiCall = "https://api.flipsidecrypto.com/api/v2/queries/df19c9ef-62de-4727-9444-67135572d77e/data/latest";
 
         $.getJSON(apiCall, function(resp) {
             var response = JSON.parse(JSON.stringify(resp)),
